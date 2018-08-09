@@ -1,0 +1,6 @@
+import class1
+if __name__ == '__main__':
+    x = float(input('x = '))
+    y = float(input('y = '))
+    sumaObject = class1.MyClass(x, y)
+    print(sumaObject.suma(x, y))
